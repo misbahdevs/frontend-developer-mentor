@@ -1,9 +1,13 @@
 // ================== AJAX ===================
 const xhttp = new XMLHttpRequest();
 let data = "";
+// ================== PADA SAAT HALAMAN SUDAH SIAP ===================
 xhttp.onreadystatechange = function () {
+  // ================== JIKA HALAMAN BISA DIBUKA ===================
   if (this.readyState == 4 && this.status == 200) {
+    // ================== UBAH DATA JSON JADI TEXT ===================
     data = JSON.parse(xhttp.responseText);
+    // ================== TAMPILKAN ===================
     console.log(data);
 
     // ============== VARIABLE =============
@@ -36,5 +40,7 @@ xhttp.onreadystatechange = function () {
     });
   }
 };
+
+// ================== REQUEST DENGAN METHOD GET KE data.json ===================
 xhttp.open("GET", "data.json", true);
 xhttp.send();

@@ -1,0 +1,5 @@
+[2022-03-10 23:25:02.479] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-03-10 23:25:02.494] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-03-10 23:25:02.606] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)

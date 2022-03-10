@@ -1,0 +1,22 @@
+[2022-03-01 20:30:30.610] [main] [info] update#setState idle
+[2022-03-01 20:30:30.704] [main] [info] ExtensionHostStarterWorker created
+[2022-03-01 20:30:32.438] [main] [info] Starting extension host with pid 2014 (fork() took 36 ms).
+[2022-03-01 20:30:32.440] [main] [info] ExtensionHostStarterWorker.start() took 43 ms.
+[2022-03-01 20:30:32.707] [main] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Unknown or unsupported transport “disabled” for address “disabled:”
+[2022-03-01 20:31:00.611] [main] [info] update#setState checking for updates
+[2022-03-01 20:31:00.623] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2022-03-01 20:31:00.623] [main] [info] update#setState idle
+[2022-03-01 21:31:00.701] [main] [info] update#setState checking for updates
+[2022-03-01 21:31:00.711] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2022-03-01 21:31:00.711] [main] [info] update#setState idle
+[2022-03-01 22:31:00.717] [main] [info] update#setState checking for updates
+[2022-03-01 22:31:00.752] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2022-03-01 22:31:00.752] [main] [info] update#setState idle
+[2022-03-01 22:54:00.378] [main] [info] Waiting for extension host with pid 2014 to exit.
+[2022-03-01 22:54:00.434] [main] [info] Extension host with pid 2014 exited with code: 0, signal: null.

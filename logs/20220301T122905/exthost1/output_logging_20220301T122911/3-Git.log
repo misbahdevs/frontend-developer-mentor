@@ -1,0 +1,9 @@
+[2022-03-01T05:29:13.005Z] Validating found git in: git
+[2022-03-01T05:29:13.085Z] Using git 2.25.1 from git
+[2022-03-01T05:29:13.134Z] > git rev-parse --git-dir [15ms]
+[2022-03-01T05:29:13.146Z] Open repository: /home/smileeveryday/frontend-developer-mentor
+[2022-03-01T05:29:13.181Z] > git symbolic-ref --short HEAD [3ms]
+[2022-03-01T05:29:13.193Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [3ms]
+[2022-03-01T05:29:13.222Z] > git remote --verbose [10ms]
+[2022-03-01T05:29:13.223Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+[2022-03-01T05:29:13.323Z] > git config --get commit.template [74ms]

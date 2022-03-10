@@ -1,0 +1,6 @@
+[2022-03-01 20:30:32.709] [renderer1] [info] IExtensionHostStarter.start() took 300 ms.
+[2022-03-01 20:30:33.276] [renderer1] [error] [Extension Host] (node:2014) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-03-01 20:30:33.545] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)

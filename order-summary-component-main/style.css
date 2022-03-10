@@ -1,0 +1,289 @@
+/* ================== GOOGLE FONTS ================== */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+/* ================== VARIABLE CSS ================== */
+:root {
+    /* ================== COLORS =================== */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    /* ================== FONT AND TYPOGRAPHY ================= */
+    --font-body: 'Red Hat Display', sans-serif;
+
+    /* ============== FONT WEIGHT ============== */
+    --font-normal: 500;
+    --font-semi-bold: 700;
+    --font-bold: 900;
+
+    /* ============== MARGINS =============== */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-25: 1.25rem;
+    --mb-1-5: 1.5rem;
+    --mb-1-75: 1.75rem;
+    --mb-2: 2rem;
+    --mb-2-25: 2.25rem;
+    --mb-2-5: 2.5rem;
+    --mb-2-75: 2.75rem;
+    --mb-3: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    background-color: var(--pale-blue);
+    background-image: url(images/pattern-background-desktop.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+body {
+    display: grid;
+    place-items: center;
+    font-family: var(--font-body);
+}
+.container {
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 630px;
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.container .banner {
+    width: 100%;
+    height: 30%;
+}
+.container .info {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .info .about__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    height: 23%;
+    margin-top: 30px;
+}
+.container .info .about__info .title {
+    font-size: 28px;
+    color: var(--dark-blue);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-5);
+}
+.container .info .about__info .description {
+    color: var(--desaturated-blue);
+}
+.container .info .about__box {
+    height: 20%;
+    width: 80%;
+    padding: 10px;
+    background-color: var(--very-pale-blue);
+    border-radius: .5rem;
+    display: flex;
+    margin-top: -50px;
+}
+.container .info .about__box div:first-child {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .info .about__box div:first-child img {
+    width: 45px;
+    height: 45px;
+    margin-right: var(--mb-1-25);
+}
+.container .info .about__box div:first-child div .title__box {
+    font-weight: var(--font-semi-bold);
+    color: var(--dark-blue);
+    margin-bottom: var(--mb-0-5);
+}
+.container .info .about__box .divthwo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .info .about__box .divthwo a {
+    font-size: 14px;
+    font-weight: var(--font-semi-bold);
+}
+.container .info .about__box .divthwo a:hover {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+.container .about__button {
+    height: 18%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+.container .about__button .btn__proccess {
+    padding: 13px 20px;
+    border: 2px solid transparent;
+    border-radius: .5rem;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-weight: var(--font-semi-bold);
+    font-size: 15px;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+}
+.container .about__button .btn__proccess:hover {
+    background-color: var(--desaturated-blue);
+    cursor: pointer;
+}
+.container .about__button a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--desaturated-blue);
+    font-weight: var(--font-semi-bold);
+}
+.container .about__button a:hover {
+    color: var(--dark-blue);
+}
+
+
+/* ============== MEDIA QUERI =============== */
+@media (min-width: 300px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 550px;
+        margin: 60px auto;
+    }
+    .container .banner img {
+        width: 100%;
+    }
+    .container .info {
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container .info .about__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        width: 90%;
+        height: 23%;
+        margin-top: -20px;
+    }
+    .container .info .about__info .title {
+        font-size: 20px;
+        color: var(--dark-blue);
+        font-weight: var(--font-bold);
+        margin-bottom: var(--mb-1);
+    }
+    .container .info .about__info .description {
+        color: var(--desaturated-blue);
+        font-size: 14px;
+    }
+    .container .info .about__box {
+        height: 20%;
+        width: 80%;
+        padding: 10px;
+        background-color: var(--very-pale-blue);
+        border-radius: .5rem;
+        display: flex;
+    }
+    .container .info .about__box div:first-child {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .container .info .about__box div:first-child img {
+        width: 40px;
+        height: 40px;
+        margin-right: var(--mb-1-25);
+    }
+    .container .info .about__box div:first-child div .title__box {
+        font-weight: var(--font-semi-bold);
+        color: var(--dark-blue);
+        margin-bottom: var(--mb-0-5);
+        font-size: 14px;
+    }
+    .container .info .about__box div:first-child div .subtitle {
+        font-size: 14px;
+        color: var(--desaturated-blue);
+    }
+    .container .info .about__box .divthwo {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .info .about__box .divthwo a {
+        font-size: 12px;
+        font-weight: var(--font-semi-bold);
+    }
+    .container .info .about__box .divthwo a:hover {
+        text-decoration: none;
+        color: var(--desaturated-blue);
+    }
+    .container .about__button {
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container .about__button .btn__proccess {
+        padding: 13px 20px;
+        border: 2px solid transparent;
+        border-radius: .5rem;
+        background-color: var(--bright-blue);
+        color: var(--very-pale-blue);
+        font-weight: var(--font-semi-bold);
+        font-size: 15px;
+        width: 100%;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+    }
+    .container .about__button .btn__proccess:hover {
+        background-color: var(--desaturated-blue);
+        cursor: pointer;
+    }
+    .container .about__button a {
+        text-decoration: none;
+        font-size: 13px;
+        color: var(--desaturated-blue);
+        font-weight: var(--font-semi-bold);
+    }
+    .container .about__button a:hover {
+        color: var(--dark-blue);
+    }
+}

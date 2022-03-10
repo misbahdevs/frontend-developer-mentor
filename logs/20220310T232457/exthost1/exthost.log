@@ -1,0 +1,14 @@
+[2022-03-10 23:25:02.608] [exthost] [info] Extension host with pid 2003 started
+[2022-03-10 23:25:02.608] [exthost] [info] Skipping acquiring lock for /home/smileeveryday/frontend-developer-mentor/User/workspaceStorage/4e7fb84d198551bfc2237816102e5c18.
+[2022-03-10 23:25:02.932] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-03-10 23:25:03.128] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onLanguage:css'
+[2022-03-10 23:25:03.897] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-10 23:25:03.905] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-10 23:25:03.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-10 23:25:04.062] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-10 23:25:04.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-10 23:25:04.584] [exthost] [info] Eager extensions activated
+[2022-03-10 23:25:04.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-10 23:25:04.696] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-10 23:25:04.932] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 511
+[2022-03-10 23:26:33.466] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
